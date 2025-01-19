@@ -1,7 +1,7 @@
 <?php
   include "./root.php";
 
-  //http://localhost/invitation/ingrid&marce.php
+  //http://localhost/invitation/ingrid-&-marce.php
 
   
 

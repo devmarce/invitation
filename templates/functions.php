@@ -1,30 +1,16 @@
 <?php
 
-include "../root.php";
+include_once "./root.php";
 
-/** ADMIN data:
- * 
- * URL_ACTUAL: Obtiene la ruta del archivo actual
- * INTRO:  des 360.net code manager tree down clasic!
- * 
+/**
+ * @param $const_ruta: constante que define la ruta del directorio de las imagenes.
+ * @param $img_name: nombre de la imagen con la extension.
+ * @return Print de la ruta completa.
 */
-
-
-function verificarDominioYRuta() {
-
-    // Verifica si el dominio y la ruta coinciden con los valores deseados
-    $dominioEsperado = "invitation.com.ar";
-    $rutaEsperada = "/ingridymarce.php";
-
-    if (URL_ACTUAL === $dominioEsperado && URL_ACTUAL === $rutaEsperada) {
-        return true;
+function define_ruta_img ($cont_ruta, $img_name) 
+{
+    if (!empty($cont_ruta))
+    {
+        echo $cont_ruta . $img_name;
     }
-    return false;
-}
-
-// Llama a la función y muestra el resultado
-if (verificarDominioYRuta()) {
-    echo "True"; // Coincide
-} else {
-    echo "False"; // No coincide
 }
