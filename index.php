@@ -1,13 +1,28 @@
 <?php
-  include "./root.php";
+  include "./root.php";// RUTA, URL_ACTUAL, DOMINIO, PROTOCOLO
 
-  //http://localhost/invitation/ingrid-&-marce.php
+  /**
+   * Agregar las urls de las invitaciones y sus respectivos templates.
+  */
+  //url => php template:
+  $invitaciones = 
+  [
+    "?Casamiento-civil-de-Ingrid-&-Marce" => "ingrid-&-marce.php",
+  ];
 
   
 
-  $ingrid_y_marce = "/ingrid&marce.php";
+  //var_dump(RUTA,"[RUTA]<br>");
 
 
-  if (RUTA == "/invitation/") {
-    echo "incluir el template de: " . $ingrid_y_marce;
+
+  /**
+   * Incluir el template correspondiente a la url actual.
+  */
+  foreach ($invitaciones as $url_invitacion => $template_php) {
+    if (RUTA == "/invitation/" . $url_invitacion) {
+      include "./" . $template_php;
+    } else {
+      include "./home-invitations.php";
+    }
   }

@@ -1,5 +1,3 @@
-<?php include "./root.php"; ?>
-<?php include "./templates/functions.php"; ?>
 <?php
 const RUTA_IMG = "./templates/template-ingridymarce/img/";
 
