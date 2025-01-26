@@ -15,11 +15,8 @@ $mute_audio = 0;
   <main>
     <div class="container-fluid">
       <?php include_once RUTA_RELATIVA . "componentes/presentacion-inicial.php"; ?>
-    </div>
 
-    
-
-    <?php
+      <?php
     //include_once "./componentes/btn_audio.php";
     // include_once "";
     // include_once "";
@@ -29,6 +26,7 @@ $mute_audio = 0;
     // include_once "";
     // include_once "";
     ?>
+    </div>
   </main>
 
   <?php include "./templates/template-ingridymarce/componentes/footer.php"; ?>
