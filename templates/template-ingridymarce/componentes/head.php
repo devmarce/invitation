@@ -20,6 +20,11 @@
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="1000">
 
+    <!-- Links Fonts -->
+    <link rel="stylesheet" href="<?php echo RUTA_RELATIVA; ?>fonts-presentacion-inicial.css">
+
+
+    <!-- Boostrap scripts -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Ingrid & Marce</title>
 </head>

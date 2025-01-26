@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Fleur De Leah";
+    src: url("./fonts/Fleur_De_Leah/FleurDeLeah-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Love Light";
+    src: url("./fonts/Love_Light/LoveLight-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fleur-de-leah-regular {
+    font-family: "Fleur De Leah", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .love-light-regular {
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

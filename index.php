@@ -7,7 +7,7 @@
   //url => php template:
   $invitaciones = 
   [
-    "?Casamiento-civil-de-Ingrid-&-Marce" => "ingrid-&-marce.php",
+    "?Ingrid-&-Marce" => "ingrid-&-marce.php",
   ];
 
   
