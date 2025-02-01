@@ -35,7 +35,7 @@
         <div class="modal-body p-0">
           <div class="card" style="border: none;">
             <?php if ($video_activo) : ?>
-              <video class="video-rayos" src="<?php echo RUTA_IMG . "video-presentacion-1.mp4"; ?>" autoplay="true" muted="true" loop="true"></video>
+              <video class="video" src="<?php echo RUTA_IMG . "video-presentacion-1.mp4"; ?>" autoplay="true" muted="true" loop="true"></video>
             <?php endif; ?>
             <div class="card-img-overlay text-center">
               <div style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 10%;">

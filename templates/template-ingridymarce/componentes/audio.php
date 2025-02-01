@@ -1,12 +1,6 @@
-<?php
-// Configuración del audio
-$controles_audio = 1;
-$autoplay_audio = 1;  // Habilitado para reproducir automáticamente
-$mute_audio = 0;
-?>
-
+<?php /* Datos en el Template principal */ ?>
 <audio id="controller-audio" style="display: none;"
-    src="<?php echo RUTA_RELATIVA ?>img/AUD-keila.mp3"
+    src="<?php echo RUTA_RELATIVA . 'img/' . $nombre_del_audio; ?>"
     <?= $autoplay_audio ? 'autoplay ' : ''; ?>
     <?= $controles_audio ? 'controls ' : ''; ?>
     <?= $mute_audio ? 'muted ' : ''; ?>>

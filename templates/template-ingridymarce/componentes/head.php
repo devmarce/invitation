@@ -21,7 +21,11 @@
     <meta property="og:image:height" content="1000">
 
     <!-- Links Fonts -->
-    <link rel="stylesheet" href="<?php echo RUTA_RELATIVA; ?>fonts-presentacion-inicial.css">
+    <link rel="stylesheet" href="<?php echo RUTA_RELATIVA; ?>fuentes.css">
+    <link rel="stylesheet" href="<?php echo RUTA_RELATIVA; ?>styles.css">
+    
+    <!-- JS mostrar frases Async -->
+    <script async src="<?php echo RUTA_RELATIVA; ?>js/frase_animacion.js"></script>
 
 
     <!-- Boostrap scripts -->

@@ -1,0 +1,117 @@
+.bodoni-moda {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    /* Altura completa del viewport */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Para que el video cubra toda el área */
+    z-index: -1;
+    /* Coloca el video detrás del contenido */
+}
+
+#mostrar-frases {
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    /* Transición suave */
+}
+
+.espejo-btn {
+    -webkit-box-reflect: below 7px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 23%)));
+}
+
+/* -------------  INI   --------------- */
+
+.frase-dedicada {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5rem;
+    font-style: italic;
+    font-family: 'merienda';
+    margin-bottom: 5rem;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+#nuestros-nombres {
+    font-size: 5rem;
+    word-spacing: 2rem;
+}
+
+#nuestra-boda {
+    font-size: 3rem;
+    font-family: "Fleur De Leah", serif;
+}
+
+.font-merienda {
+    font-family: "Merienda";
+    font-style: italic;
+    font-weight: 100;
+}
+
+.data-especific {
+    margin-top: 1rem;
+}
+
+.btn-ubi {
+    font-size: 1rem;
+}
+
+.box-boda {
+    background: transparent !important;
+    margin-top: 10rem;
+    border: none !important;
+}
+
+@media screen and (max-width: 578px) {
+    .frase-dedicada {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 5rem;
+        font-style: italic;
+        font-family: 'merienda';
+        margin-bottom: 5rem;
+        font-weight: 100;
+        font-size: 0.7rem;
+        margin-top: 5rem;
+    }
+
+    #nuestros-nombres {
+        font-size: 1.5rem;
+        word-spacing: 1rem;
+    }
+
+    #nuestra-boda {
+        font-size: 1.5rem;
+        font-family: "Fleur De Leah", serif;
+    }
+
+    .data-especific {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+}
