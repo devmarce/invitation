@@ -3,7 +3,7 @@
 <!-- Presentacion-inicial.php styles -->
 <style type="text/css">
   .fondo-negro {
-    background-color: #000;
+    background-color: #8ba78e;
   }
 
   #nos_casamos {

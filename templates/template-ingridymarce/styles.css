@@ -81,7 +81,6 @@
 
 .box-boda {
     background: transparent !important;
-    margin-top: 10rem;
     border: none !important;
 }
 
@@ -90,17 +89,15 @@
         text-align: center;
         width: 80%;
         margin: auto;
-        padding-bottom: 5rem;
         font-style: italic;
         font-family: 'merienda';
-        margin-bottom: 5rem;
         font-weight: 100;
         font-size: 0.7rem;
         margin-top: 5rem;
     }
 
     #nuestros-nombres {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         word-spacing: 1rem;
     }
 

@@ -48,12 +48,23 @@
         transform: scale(1);
         }
         30%, 80% {
-          transform: scale(0.92, 0.95);
-          }
-          }
-          `;
+            transform: scale(0.92, 0.95);
+        }
+    }`;
     document.head.appendChild(style);
 
     // Iniciar la animación cuando la página cargue
     window.onload = iniciarAnimacionTitulo;
+
+    // Silenciar audio cuando la pestaña no está activa
+    document.addEventListener("visibilitychange", function () {
+        var audio = document.getElementById("controller-audio");
+        if (!audio) return;
+
+        if (document.hidden) {
+            audio.muted = true; // Silenciar el audio
+        } else {
+            audio.muted = false; // Restaurar el audio
+        }
+    });
 </script>
