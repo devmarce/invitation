@@ -49,7 +49,7 @@
     margin: auto;
     padding-bottom: 5rem;
     font-style: italic;
-    font-family: 'merienda';
+    font-family: 'Merienda';
     margin-bottom: 5rem;
     font-weight: 100;
     font-size: 1.3rem;
@@ -65,11 +65,18 @@
     font-family: "Fleur De Leah", serif;
 }
 
-.font-merienda {
-    font-family: "Merienda";
+.font-rochester {
+    font-family: "Rochester" !important;
+    font-weight: 400;
     font-style: italic;
-    font-weight: 100;
-}
+  }
+
+  .font-merienda {
+    font-family: "Merienda" !important;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 
 .data-especific {
     margin-top: 1rem;
@@ -87,17 +94,13 @@
 @media screen and (max-width: 578px) {
     .frase-dedicada {
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
-        font-style: italic;
-        font-family: 'merienda';
-        font-weight: 100;
-        font-size: 0.7rem;
-        margin-top: 5rem;
+        font-size: 1rem;
     }
 
     #nuestros-nombres {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
         word-spacing: 1rem;
     }
 
@@ -111,4 +114,11 @@
         font-size: 1rem;
     }
 
+}
+
+@media screen and (max-width: 992px) {
+    #nuestros-nombres {
+        font-size: 2rem;
+        word-spacing: 1rem;
+    }
 }

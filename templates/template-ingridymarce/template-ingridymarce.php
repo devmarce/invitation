@@ -3,7 +3,7 @@ const RUTA_IMG = "./templates/template-ingridymarce/img/";
 $video_activo = 1;
 //
 // Configuración del audio
-$nombre_del_audio = "christina-perri.mp3";//"christina-perri.mp3";
+$nombre_del_audio = "christina-perri.mp3"; //"christina-perri.mp3";
 $controles_audio = 1;
 $autoplay_audio = 1;
 $mute_audio = 0;
@@ -28,33 +28,38 @@ $ubicacion_registro = "https://www.google.com/maps/place/Rep%C3%BAblica+de+Portu
             <source src="<?php echo RUTA_IMG ?>video-flores.mp4" type="video/mp4">
             Tu navegador no soporta videos.
           </video>
-          
+
           <!-- <p id="mostrar-frases" class="fleur-de-leah-regular mt-5"></p> -->
 
           <div class="card" style="background: transparent;border: none;">
-            <div class="card-body text-center" style="color: #0e0e0e; background: #01f83b08;">
+            <div class="card-body text-center" style="color: #0e0e0e; background: #01f83b08; padding-bottom: 0;">
 
               <div class="x" style="font-size: 2rem;">
                 <div class="frase-dedicada">
-                  <p class="card-text" style="margin: 2rem 0 4rem 0;">
-                  "Es un regalo extraordinario encontrar a alguien con quién compartirlo todo, alguien que te ama tal como sos.<br>
-                  El tiempo que nos queda es nuestro tesoro más valioso. No hay mayor fortuna que vivirlo juntos, sin preguntarnos hasta cuándo.
-                  Nuestro amor no entiende de medidas de tiempo, solo sabe que es para siempre..."
+                  <p class="card-text font-rochester" style="margin: 2rem 0 4rem 0;">
+                  "Es maravilloso encontrar a alguien con quien compartirlo todo, alguien que te ama tal y como sos. Hoy, celebramos la dicha de haber encontrado a ese ser único.<br>
+                  No hay mayor fortuna que disfrutar cada momento juntos para amarnos, en lo que será lo más valioso que nos queda... El resto de nuestras vidas..."
                   </p>
                   <h1 id="nuestros-nombres" class="fleur-de-leah-regular espejo-btn">Ingrid y Marce</h1>
                 </div>
-                <div class="card-header box-boda">
+
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%; opacity: 0.7;">
+                  <img src="<?php echo RUTA_IMG ?>m-y-i.png" class="rounded" alt="te amo!" >
+                </div>
+
+                <!-- old -->
+                <div class="card-header box-boda" style="display: none;">
                   <p id="nuestra-boda">
                     Tenemos el honor de invitarte a <br>Nuestra Boda Civil<br>
                   </p>
                 </div>
-                <p class="card-text font-merienda data-especific">
+                <p class="card-text font-merienda data-especific" style="display: none;">">
                   <span>El viernes 14 de Febrero</span><br><br>
                   <span>A las 12:30 hs</span><br><br>
                   <span>En el registro civil de Isidro Casanova</span>
                 </p>
-                <a href=<?php echo $ubicacion_registro; ?> class="btn mt-5" target="_blank" style="font-family: serif ;box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);">ubicar lugar</a>
+                <a href=<?php echo $ubicacion_registro; ?> class="btn mt-5" target="_blank" style="font-family: 'Merienda' ;box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); display:none">Ver Lugar</a>
               </div>
             </div>
           </div>

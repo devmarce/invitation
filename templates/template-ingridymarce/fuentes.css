@@ -1,81 +1,94 @@
 @font-face {
-    font-family: "Fleur De Leah";
-    src: url("./fonts/Fleur_De_Leah/FleurDeLeah-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Love Light";
-    src: url("./fonts/Love_Light/LoveLight-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Fleur De Leah";
+  src: url("./fonts/Fleur_De_Leah/FleurDeLeah-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-Regular.ttf') format('truetype');
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-Light.ttf') format('truetype');
-    font-weight: 300;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-Medium.ttf') format('truetype');
-    font-weight: 500;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-Bold.ttf') format('truetype');
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('./fonts/Merienda/Merienda-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('Merienda-Black.ttf') format('truetype');
-    font-weight: 900;
-  }
-  
-  @font-face {
-    font-family: 'Merienda';
-    src: url('Merienda-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
-  }
-  
-  .fleur-de-leah-regular {
-    font-family: "Fleur De Leah", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .love-light-regular {
-    font-family: "Love Light", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "Love Light";
+  src: url("./fonts/Love_Light/LoveLight-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .font-merienda {
-    font-family: "Merienda", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('./fonts/Merienda/Merienda-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('Merienda-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('Merienda-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Rochester";
+  src: url("./fonts/Rochester/Rochester-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.love-light-regular {
+  font-family: "Love Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-merienda {
+  font-family: "Merienda", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.font-rochester {
+  font-family: "Rochester" !important;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
